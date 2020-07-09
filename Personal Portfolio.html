@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"crossorigin="anonymous"/>
+<style type="text/css">
+	body{
+		background-color: #4b3832;
+		color: #fff4e6;
+		font-family: 'Poppins', sans-serif;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	nav{
+		position: fixed;
+		width: 100%;
+		background-color: #333333;
+		text-align: right;
+		padding: 5px;	
+		font-size: 19px;
+		overflow: auto;
+	}
+	li{
+		list-style-type: none;/*takes away bullets*/
+		position: relative;
+		display: inline; /*inline nav*/
+		
+	}
+		.nav-list a{
+		text-decoration: none;/*takes away underline*/
+		color: white;
+		
+	}
+	a{
+		text-decoration: none;/*takes away underline*/
+		padding: 30px 30px 26px 40px;
+
+	}
+	h1{
+
+	}
+	.nav-list a:hover{
+		background-color: #506465;	
+	}
+
+	#welcome{
+		padding-top:15%;
+		height: 100vh; /* setting height to 100vh matches the height of the viewport*/
+		
+	}
+	#section-header{
+		font-size: 40px;
+		font-weight: 600px;
+		
+	}
+#section-para{
+	font-size: 20px;
+}
+	#projects{
+		background-color: #9c5e5e;
+	}
+	.project-section{
+		text-align: center;
+		padding: 5rem 2rem;	
+	}
+	#project{
+		background-color: #506465;
+		 padding: 1rem;
+  		 height: 12rem;
+  		 border-radius: 3px;
+  		 box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	}
+	#project:hover{
+		background-color: #333333;
+	}
+	.project-grid{
+		 max-width: 1200px;
+		  margin: 0 auto;
+		  display: grid;
+		  grid-gap: 3rem;
+
+
+	}
+		#project-img{
+		padding: .4rem;
+  		 height: 8rem;
+		border-radius: 5px;
+
+	}
+#project-title{
+	color: #FFFFFF;
+}
+				@media (min-width: 600px) { /*Is the screen larger than 600px? Make it two columns.*/
+			  .project-grid { 
+			  	grid-template-columns: repeat(2, 1fr); 
+			  }
+			}
+
+				@media (min-width: 900px) {
+			  .project-grid { grid-template-columns: repeat(3, 1fr); }
+			}
+#profile-link{
+	height: 22rem;
+	padding: 3rem;
+
+}
+#profile{
+	font-size: 25px;
+}
+#profile a{
+	color: white;
+
+
+}
+#profile a:hover{
+	color: #9c5e5e;
+}
+.material-icons{
+	font-size: 30px;
+	color: white;
+	padding-top: 25px;
+}
+
+
+
+	#footer{
+		background-color: #333333;
+		height: 7rem;
+		padding-top: 5rem;
+
+	}
+		</style>
+		<nav id="navbar" class="nav">
+			<ul class="nav-list">
+		<li><a href="#welcome">About</a></li>
+		<li><a href="#projects">Projects</a></li>
+		<li><a href="#profile-link">Contact</a></li>
+		</ul>
+	</nav>
+	<section id="welcome">
+	<h1 id="section-header">Tuya Senff</h1>
+	<p id="section-para"><i>a web developer</i></p>
+	</section>
+	<section id="projects" class="project-section">
+		<h1 id="section-header">My projects</h1>
+		<div class="project-grid">
+			<a id="project" href="#1">
+				<img id="project-img" src="https://images-na.ssl-images-amazon.com/images/I/71Iq8vTLPeL.png">
+					<p id="project-title">Tribute Page</p></a>	
+			<a id="project" href="#1">
+				<img id="project-img" src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/11/attachment_78456430-e1541654366936.jpeg?auto=format&q=60&w=1000&h=1000&fit=crop&crop=faces">
+					<p id="project-title">Technical Documentation</p></a>
+			<a  id="project" href="#1">
+				<img id="project-img" src="https://thumbs.dreamstime.com/b/baby-cute-panda-logo-can-be-used-logos-icons-symbols-etc-139736232.jpg">
+					<p id="project-title">Survey Form</p></a>
+			<a id="project" href="#1">
+				<img id="project-img" src="https://fbcd.co/product-lg/d99440efe355bdb4a3e8a9c4f1bc2311_resize.png">
+					<p  id="project-title">Random Name Generator</p></a>
+			<a id="project" href="#1">
+				<img id="project-img" src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/11/attachment_78456430-e1541654366936.jpeg?auto=format&q=60&w=1000&h=1000&fit=crop&crop=faces">
+					<p id="project-title">Technical Documentation</p></a>
+			<a  id="project" href="#1">
+				<img id="project-img" src="https://thumbs.dreamstime.com/b/baby-cute-panda-logo-can-be-used-logos-icons-symbols-etc-139736232.jpg">
+					<p id="project-title">Survey Form</p></a>
+			<a id="project" href="#1">
+				<img id="project-img" src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/11/attachment_78456430-e1541654366936.jpeg?auto=format&q=60&w=1000&h=1000&fit=crop&crop=faces">
+					<p id="project-title">Technical Documentation</p></a>	
+			<a  id="project" href="#1">
+				<img id="project-img" src="https://thumbs.dreamstime.com/b/baby-cute-panda-logo-can-be-used-logos-icons-symbols-etc-139736232.jpg">
+					<p id="project-title">Survey Form</p></a>
+		</div>
+	</section>
+<section id="profile-link">
+	<h1 id="section-header">Contact Me</h1>
+	<p id="section-para"><i>let's work together..</i></p>
+	<div id="profile">
+		<a class="profile-email" href="mailto:tuya.senff@gmail.com"><i class="fas fa-at"></i> Email me</a>
+		<a class="profile-phone" href="tel:425-446-1744"><i class="fas fa-mobile-alt"></i> Call me</a>
+		<a class="profile-github" href="https://github.com/treki" target="_blank"><i class="fab fa-github"></i> GitHub</a><!-- target blank for new window-->
+	</div>
+</section>
+<footer id="footer">
+	<p>Created by Tuya Senff 2020</p>
+</footer>
+</html>
